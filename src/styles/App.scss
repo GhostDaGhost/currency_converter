@@ -1,0 +1,14 @@
+#outercontainer {
+    top: 10vmin;
+    position: relative;
+
+    border-radius: 2vh;
+    border: .4vh solid black;
+    background-color: rgba(0, 0, 0, 0.76);
+
+    > #innercontainer {
+        #alert {
+            background: transparent;
+        }
+    }
+}

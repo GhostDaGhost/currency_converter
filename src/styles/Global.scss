@@ -1,0 +1,20 @@
+body {
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+
+    background: linear-gradient(90deg, hsla(212, 13%, 41%, 1) 0%, hsla(3, 100%, 73%, 1) 100%);
+    background-position: center;
+}
+
+.mantine-TextInput-label,
+.mantine-Select-label,
+.mantine-Alert-message,
+.mantine-Alert-closeButton {
+    color: white;
+}
+
+.mantine-Select-input {
+    color: white;
+    background-color: rgb(34, 34, 34);
+}
